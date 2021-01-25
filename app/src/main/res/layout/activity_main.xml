@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.talha.tnball.MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="TNBall"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+    <Button
+        android:id="@+id/play"
+        android:background="@drawable/play"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/about"
+        android:background="@drawable/about"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/exit"
+        android:background="@drawable/exit"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/best_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="120dp"
+        android:textColor="#19FCF4"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+
+</LinearLayout>
